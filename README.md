@@ -24,5 +24,10 @@ Após o término, uma nova janela irá aparecer perguntando se você gostaria de
 
 No seu terminal do Linux, rode o seguinte comando:
 ```bash
-echo 'export PATH="/usr/bin/flutter/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="$PATH:/home/tsilva/Documentos/flutter/bin"' >> ~/.bashrc
+```
+
+## Criar um app
+```bash
+dart create nome_do_app
 ```
